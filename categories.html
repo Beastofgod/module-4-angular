@@ -1,9 +1,0 @@
-<div items="items" ng-controller="CategoriesController as catCtrl">
-  <ul>
-    <li ng-repeat="category in catCtrl.items" style="list-style: none;">
-      <button ui-sref="categories.items({ categoryShortName: category.short_name })" class="btn btn-primary btn-xs">
-      {{ category.name }} [ {{ category.short_name }} ]
-      </button>
-    </li>
-  </ul>
-</div>
